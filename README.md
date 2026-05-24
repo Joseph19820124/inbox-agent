@@ -1,6 +1,8 @@
 # inbox-agent
 
-Pre-baked Brain · Hands · Loop reference build for Day 14 (Week 2 bonus) of the [Anthropic Academy plan](https://github.com/Joseph19820124/anthropic-academy-plan).
+Pre-baked Brain · Hands · Loop reference build for **Day 14 (Week 2 bonus)** of the [Anthropic Academy plan](https://github.com/Joseph19820124/anthropic-academy-plan) — see [BONUS_AGENT_BUILD.md](https://joseph19820124.github.io/anthropic-academy-plan/BONUS_AGENT_BUILD) for curriculum context.
+
+> **Why this exists.** The AI Accelerator's "Agent Architecture Build Guide" (Skool community, 2026) shows how to build a multi-LLM agent in ~50 lines using OpenRouter. **This is the senior-engineer adaptation**: direct provider SDKs (no OpenRouter middleman), hermetic `DRY_RUN` mode for architecture-without-quota-burn verification, and runtime `BRAIN=claude|gemini` switching.
 
 **Current state: 100% scaffolded + structurally verified.** All dependencies installed, TypeScript clean, `DRY_RUN=1` mock loop runs end-to-end. Day 14 to-do: drop in real API keys + verify Zapier action keys.
 
